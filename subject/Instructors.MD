@@ -1,7 +1,7 @@
 Instructors
 ====
 
-## Story 1 - Upload d'une photo de profile étudiant
+## Story 1 - Upload d'une photo de profile professeur
 ### Objectifs
 Les professeurs peuvent uploader une photo sur leur profile
 

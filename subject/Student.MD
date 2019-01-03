@@ -18,20 +18,22 @@ Sur la page de détail d'un étudiant, ajouter la possiblité de souscrire à un
 Les étudiants peuvent uploader une photo sur leur profile
 
 ### Acceptance Criterias
-* Il ne doit y a avoir qu'une seule photo de profile par étudiant
-* L'image de doit pas execeder 100 KB
+* Une seule photo de profile est autorisé à la fois
+* L'image de doit pas exécéder 100 KB
 
 ---
 
 ## Story 3 - Créer une page d'acceuil pour les étudiants
 ### Description
+Pour ameliorer l'ergonomie de l'application, nous souhaitons mettre en place une page d'acceuille specifique pour les étudiants.
+
+Cette page devra afficher les cours auxquels ils se sont inscrits sous la forme d'un agenda de la semaine.
+
+L'affichage de l'agenda aura les caracteristiques suivantes :
+* Présentation des 5 jours de la semaines : Lundi au Vendredi
+* Présentation dans un style outlook des créneaux horaires des cours
+* Chaque créneau de cours devra afficher le libellé du cours
 
 ### Acceptance Criterias
-
----
-
-## Story 4 - Controle à l'inscription de cours
-### Description
-
-### Acceptance Criterias
-
+* L'agenda devra être celui de l'étudiant connecté
+* L'affichage aura une granularité à l'heure
