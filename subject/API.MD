@@ -1,7 +1,7 @@
 API
 ====
 
-Afin qu'il soit plus facile pour des applications tierces d'acceder aux données de Contoso University, il a été décidé que des API devaient être implementés.
+Afin qu'il soit plus facile pour des applications tierces d'accéder aux données de Contoso University, il a été décidé que des API devaient être implémentés.
 
 ## Story 1 - api Etudiants
 ### Description
@@ -13,7 +13,6 @@ L'api des étudiants doit permettre de retourner pour un étudiant données :
 _Verb & URL REST:_ GET /api/students/{id}
 
 {id}: identifiant de l'objet students en base
-
 
 #### Réponse:
 Le format de la réponse doit être en json et/ou xml
@@ -33,13 +32,12 @@ Le format de la réponse doit être en json et/ou xml
 
 ## Story 2 - api professeurs
 ### Description
-Pour les professeurs nous avons besoin d'un API pour récuperer l'agenda de la semaine.
+Pour les professeurs nous avons besoin d'un API pour récupérer l'agenda de la semaine.
 
 #### Requête:
 _Verb & URL REST:_ GET /api/instructors/{id}/weeklyschedule/
 
 {id}: identifiant de l'objet instructors en base
-
 
 #### Réponse:
 Le format de la réponse doit être en json et/ou xml
