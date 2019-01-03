@@ -29,6 +29,7 @@ Le format de la réponse doit être en json et/ou xml
     ]
 }
 ```
+---
 
 ## Story 2 - api professeurs
 ### Description
