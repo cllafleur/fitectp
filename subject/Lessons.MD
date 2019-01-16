@@ -11,6 +11,7 @@ Pour cette première version nous n'allons traiter que les cours qui intervienne
 * Sélection du jour de la semaine
 * Heure du cours
 * Durée du cours
+* Date du premier cours
 
 ---
 

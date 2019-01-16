@@ -27,7 +27,7 @@ Les étudiants peuvent uploader une photo sur leur profile
 ### Description
 Pour améliorer l'ergonomie de l'application, nous souhaitons mettre en place une page d'accueil spécifique pour les étudiants.
 
-Cette page devra afficher les cours auxquels ils se sont inscrits sous la forme d'un agenda de la semaine.
+Cette page devra afficher les cours auxquels l'étudiant connecté s'est inscrit, sous la forme d'un agenda de la semaine.
 
 L'affichage de l'agenda aura les caractéristiques suivantes :
 * Présentation des 5 jours de la semaines : Lundi au Vendredi
