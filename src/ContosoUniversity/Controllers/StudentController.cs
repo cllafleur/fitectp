@@ -1,21 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
-using System.Linq;
-using System.Net;
-using System.Web;
-using System.Web.Mvc;
-using ContosoUniversity.DAL;
+﻿using ContosoUniversity.DAL;
 using ContosoUniversity.Models;
 using PagedList;
+using System;
+using System.Data;
 using System.Data.Entity.Infrastructure;
+using System.Linq;
+using System.Net;
+using System.Web.Mvc;
 
 namespace ContosoUniversity.Controllers
 {
     public class StudentController : Controller
     {
         private SchoolContext db = new SchoolContext();
+        public SchoolContext DbContext
+        {
+            get { return db; }
+            set { db = value; }
+        }
 
         // GET: Student
         public ViewResult Index(string sortOrder, string currentFilter, string searchString, int? page)
