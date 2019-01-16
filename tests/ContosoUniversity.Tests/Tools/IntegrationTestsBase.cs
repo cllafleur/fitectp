@@ -41,7 +41,6 @@ namespace ContosoUniversity.Tests.Tools
         private void CleaningUpPreviousDb()
         {
             Microsoft.SqlServer.Management.Smo.Server server = new Microsoft.SqlServer.Management.Smo.Server(connectionStringBuilder.DataSource);
-            Microsoft.SqlServer.Management.Smo.Database database = new Microsoft.SqlServer.Management.Smo.Database(server, connectionStringBuilder.InitialCatalog);
             if (server.Databases.Contains(connectionStringBuilder.InitialCatalog))
             {
                 server.KillAllProcesses(connectionStringBuilder.InitialCatalog);
