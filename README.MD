@@ -18,8 +18,8 @@ Pour compiler la solution il vous faudra les prérequis suivants :
 * Une instance localDB nommé **MSSQLLocalDB**
 
 > Procédures :
-> * [Configuration de LocalDB](setupEnvironment/LocalDBSetup.MD)
-> * [Initialisation de la base de donnée](setupEnvironment/DatabaseSetup.MD)
+> * [Configuration de LocalDB](subject/setupEnvironment/LocalDBSetup.MD)
+> * [Initialisation de la base de donnée](subject/setupEnvironment/DatabaseSetup.MD)
 
 
 ## Les points à soutenir
