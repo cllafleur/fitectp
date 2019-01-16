@@ -7,4 +7,11 @@ A l'université de Contoso, la qualité est une préoccupation de tous les insta
 
 ![Le process en image](https://g.gravizo.com/svg?digraph%20G%20{node%20[shape=];Dev->"Code%20Review"->QA->Integration})
 
+## Charte graphique
+
+## Contraintes techniques
+
+## Les points a soutenir
+
+
 

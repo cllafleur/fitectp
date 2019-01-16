@@ -8,7 +8,7 @@ A l'université de Contoso, la qualité est une préoccupation de tous les insta
 ![Le process en image](https://g.gravizo.com/svg?digraph%20G%20{node%20[shape=];Dev->"Code%20Review"->QA->Integration})
 
 
-## Liste des epics
+# Liste des epics
 
 * [API](subject/API.MD)
 * [Authentication](subject/Authentication.MD)
@@ -17,11 +17,11 @@ A l'université de Contoso, la qualité est une préoccupation de tous les insta
 * [Quality](subject/Quality.MD)
 * [Student](subject/Student.MD)
 
-## Prioritized Backlog
+# Prioritized Backlog
 
 |Epic|Story|
 |-|-|
-|Authentication|[Story 1 -Authentification de l'utilisateur](subject/Authentication.MD#Story-1--Authentification-de-l'utilisateur)|
+|Authentication|[Story 1 - Authentification de l'utilisateur](subject/Authentication.MD#Story-1---Authentification-de-l'utilisateur)|
 |Student|[Story 1 - Inscription à un cours](subject/Student.MD#Story-1---Inscription-à-un-cours)|
 |Student|[Story 2 - Upload d'une photo de profile étudiant](subject/Student.MD#Story-2---Upload-d'une-photo-de-profile-étudiant)|
 |Authentication|[Story 2 - Création de compte](subject/Authentication.MD#Story-2---Création-de-compte)|

@@ -1,7 +1,7 @@
 Authentication
 ====
 
-## Story 1 -Authentification de l'utilisateur
+## Story 1 - Authentification de l'utilisateur
 
 ### Description
 L'utilisateur doit pouvoir s'authentifier pour accéder à l'application
