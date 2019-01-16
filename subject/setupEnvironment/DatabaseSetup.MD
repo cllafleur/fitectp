@@ -3,7 +3,7 @@ Initialisation de la base de donnée
 
 Dans Visual Studio ouvrir le *Package Manager Console*
 
-![](openPackageConsole.PNG)
+![](openPackageConsole.png)
 
 Executer les commandes suivantes :
 
