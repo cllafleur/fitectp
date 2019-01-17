@@ -8,3 +8,4 @@ packages
 .vs
 /dbTests/IntegrationTests_log.ldf
 /dbTests/IntegrationTests.mdf
+TestResults/

@@ -10,6 +10,8 @@ Sur la page de détail d'un étudiant, ajouter la possibilité de souscrire à u
 
 ### Acceptance Criterias
 * Il n'est pas possible pour un étudiant de se désinscrire à un cours
+* Si l'étudiant est déjà inscrit, afficher le message d'erreur "You already subscribed to this lesson"
+* Si l'étudiant s'inscrit à un cours, il est inscrit à toutes les occurences
 
 ---
 
@@ -20,6 +22,8 @@ Les étudiants peuvent uploader une photo sur leur profile
 ### Acceptance Criterias
 * Une seule photo de profile est autorisé à la fois
 * L'image de doit pas excéder 100 KB
+* Les formats autorisés sont le *png* et *jpeg*
+* La photo est visible sur le detail de leur profile
 
 ---
 

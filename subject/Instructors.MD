@@ -8,6 +8,8 @@ Les professeurs peuvent uploader une photo sur leur profile
 ### Acceptance Criteria
 * Il ne doit y a avoir qu'une seule photo de profile par professeur
 * L'image de doit pas excéder 100 KB
+* Les formats autorisés sont le *png* et *jpeg*
+* La photo est visible sur le detail de leur profile
 
 ---
 
