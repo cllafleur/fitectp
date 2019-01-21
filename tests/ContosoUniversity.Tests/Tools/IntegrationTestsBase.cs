@@ -50,10 +50,11 @@ namespace ContosoUniversity.Tests.Tools
 
         private void SetupUpNewDb()
         {
-            string path = Path.Combine(Environment.CurrentDirectory, dbLocation, dbFilename);
-            string targetPath = Path.Combine(Environment.CurrentDirectory, dbLocation, dbTargetFilename);
+            string currentDirectory = TestContext.CurrentContext.WorkDirectory;
+            string path = Path.Combine(currentDirectory, dbLocation, dbFilename);
+            string targetPath = Path.Combine(currentDirectory, dbLocation, dbTargetFilename);
             File.Copy(path, targetPath, true);
-            File.Delete(Path.Combine(Environment.CurrentDirectory, dbLocation, dbLogTargetFilename));
+            File.Delete(Path.Combine(currentDirectory, dbLocation, dbLogTargetFilename));
             connectionStringBuilder.AttachDBFilename = targetPath;
         }
 
